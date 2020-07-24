@@ -10,20 +10,25 @@ class Projects extends React.Component{
     toggleProjectUI(){
         if(this.state.activeTab === 1){
             return(
-                <div className='projects-grid'>
-                <Card shadow={0} style={{width: '320px', height: '320px', margin: '15px'}}>
-                   <CardTitle expand style={{color: 'white' ,fontWeight:'bold', margin: '5px', background: 'url(https://image.freepik.com/free-vector/dark-wavy-background-gradient_23-2148385755.jpg) center  / cover'}}>Student Hub</CardTitle>
-                      <CardText>
-                       A web application which resembles the GitHub for an organization where Students can Interact,
-                       share their Ideas, projects and get help from others to clarity their doubts.
-                       </CardText>
-                   <CardActions border>
-                     <Button colored href="https://github.com/KannepallyKoushik/StudentHub">GitHub</Button>
-                     <Button colored href="http://52.12.113.4/StudentHub/StudentHub/">Live Demo</Button>
-                   </CardActions>
-               </Card>
+                <div>
+                    <Grid>
+                    <Cell col={4} className='projects-grid'>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: '15px'}}>
+                         <CardTitle expand style={{color: 'white' ,fontWeight:'bold', margin: '5px', background: 'url(https://image.freepik.com/free-vector/dark-wavy-background-gradient_23-2148385755.jpg) center  / cover'}}>Student Hub</CardTitle>
+                         <CardText>
+                             A web application which resembles the GitHub for an organization where Students can Interact,
+                             share their Ideas, projects and get help from others to clarity their doubts.
+                         </CardText>
+                         <CardActions border>
+                           <Button colored href="https://github.com/KannepallyKoushik/StudentHub">GitHub</Button>
+                            <Button colored href="http://52.12.113.4/StudentHub/StudentHub/">Live Demo</Button>
+                          </CardActions>
+                      </Card>
+                    </Cell>
+                    
          {/* ------------------------------------------------------------------------------------------*/}
-               <Card shadow={0} style={{width: '320px', height: '320px', margin: '15px'}}>
+         <Cell col={4} className='projects-grid'>
+         <Card shadow={0} style={{width: '320px', height: '320px', margin: '15px'}}>
                    <CardTitle expand style={{color: 'white' ,fontWeight:'bold', margin: '5px', background: 'url(https://image.freepik.com/free-vector/dark-wavy-background-gradient_23-2148385755.jpg) center  / cover'}}>Assets Management System</CardTitle>
                       <CardText>
                       This is a web application developed for the sake of AutomatEm Pvt LTD to keep a track of all the products, Dealers and Customers
@@ -33,8 +38,11 @@ class Projects extends React.Component{
                      <Button colored href="http://52.12.113.4/AssestsManagementSystem/">Live Demo</Button>
                    </CardActions>
                </Card>
+         </Cell>
+               
             {/* ------------------------------------------------------------------------------------------*/}
-               <Card shadow={0} style={{width: '320px', height: '320px', margin: '15px'}}>
+            <Cell col={4} className='projects-grid'>
+            <Card shadow={0} style={{width: '320px', height: '320px', margin: '15px'}}>
                    <CardTitle expand style={{color: 'white' ,fontWeight:'bold', margin: '5px', background: 'url(https://image.freepik.com/free-vector/dark-wavy-background-gradient_23-2148385755.jpg) center  / cover'}}>Street Cause GNI</CardTitle>
                       <CardText>
                        Developed a website for the largest student run NGO in Hyderabad, where they can post their
@@ -45,7 +53,10 @@ class Projects extends React.Component{
                      <Button colored href="http://52.12.113.4/StreetCauseGNI">Live Demo</Button>
                    </CardActions>
                </Card>
-              {/* ------------------------------------------------------------------------------------------*/}
+            </Cell>
+               
+               
+                    </Grid>
                </div>
             );
         }
@@ -98,12 +109,7 @@ class Projects extends React.Component{
                     
                 </Tabs>
                 <section>
-                    <Grid >
-                        <Cell col={12}>
-                        <div className="content"> {this.toggleProjectUI()}</div>
-                        </Cell>
-                    </Grid>
-                    
+                        <div className="content"> {this.toggleProjectUI()}</div>  
                 </section>
             </div>    
         );

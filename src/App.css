@@ -60,8 +60,6 @@ background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/
 
 .projects-grid{
   display: flex;
-  justify-content: space-around;
-  align-items: 'space-around';
 }
 
 .contact-body{
