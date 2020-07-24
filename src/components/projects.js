@@ -66,7 +66,21 @@ class Projects extends React.Component{
             );
         }
         else if(this.state.activeTab === 2){
-            return <div><h1>This is React projects</h1></div>
+            return(
+                <div>
+                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                   <CardTitle expand style={{color: 'white' ,fontWeight:'bold', margin: '5px', background: 'url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center  / cover'}}>My PortFolio Website</CardTitle>
+                      <CardText>
+                      This is a website which shows my skills and projects
+                       </CardText>
+                   <CardActions border>
+                   <Button colored href="https://github.com/KannepallyKoushik/MyPortfolioWebsite">GitHub</Button>
+                     <Button colored href="https://master.d3851zjhc33rp7.amplifyapp.com/">Live Demo</Button>
+                   </CardActions>
+                   </Card>
+                </div>
+                
+            );
         }
         else if(this.state.activeTab === 3){
             return <div><h1>This is React Native projects</h1></div>
