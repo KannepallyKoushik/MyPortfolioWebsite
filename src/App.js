@@ -19,6 +19,7 @@ function App() {
         </Header>
         <Drawer title="Menu">
             <Navigation>
+            <Link to="/" >Home</Link>
             <a href="https://drive.google.com/file/d/1kSuU6VLFSvo06ezpPzNLexNaIkavLUs3/view?usp=sharing">Resume</a>
                 <Link to="/projects" >My Projects</Link>
                 <Link to="/contact" >Contact Me</Link>
