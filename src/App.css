@@ -1,68 +1,106 @@
-.header-color{
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+/*App.js css */
 
-.landing-grid{
-  background: #833ab4;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- text-align: center;
-  
+.header-color {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.profile-pic{
+/*------------------------------------------------------------ */
+
+/* Landing page css */
+
+.landing-grid {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+
+.profile-pic {
   height: 250px;
   width: auto;
   border-radius: 225px;
   margin-top: 45px;
 }
 
-.banner-text{
+.banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
 }
 
-.banner-text h1{
+.banner-text h1 {
   font-size: 40px;
   font-weight: bold;
   color: white;
 }
 
-.banner-text hr{
+.banner-text hr {
   border-top: 5px dotted white;
   margin: auto;
   width: 70%;
 }
 
-.banner-text p{
+.banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
 }
 
-.social-links{
+.social-links {
   display: flex;
   justify-content: space-around;
   width: 50%;
   margin: auto;
 }
 
-.social-links i{
+.social-links i {
   color: white;
   font-size: 5em;
   padding: 3px;
 }
 
-.projects-grid{
+/*------------------------------------------------------------ */
+
+/* projects page css*/
+
+.projects-grid {
   display: flex;
 }
 
-.contact-body{
+.projects-grid-extra {
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------------------------------------------------ */
+
+/* contact page css*/
+
+.contact-body {
   margin: auto;
   width: 100%;
   height: 100%;
@@ -70,32 +108,40 @@ background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/
   padding-top: 1em;
 }
 
-.contact-grid{
+.contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
-  height : 550px;
+  height: 550px;
   background: white;
   margin-bottom: 20px;
 }
 
-.contact-grid h2{
-  font-family: 'Anton',sans-serif;
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
 }
 
-.contact-grid p{
-  font-family: 'Oxygen',sans-serif;
-  font-weight: 'bold';
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: "bold";
 }
 
-.contact-grid hr{
+.contact-grid hr {
   width: 50%;
   border-top: 5px dotted black;
   margin: auto;
 }
 
-.contact-list i{
+.contact-list i {
   font-size: 40px;
   padding-right: 10px;
   margin-right: 5px;
+}
+
+/* Resume page CSS*/
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 1em;
 }
