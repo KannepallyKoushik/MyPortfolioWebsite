@@ -87,7 +87,7 @@ class Projects extends React.Component {
                 <CardActions border>
                   <Button
                     colored
-                    href="https://github.com/KannepallyKoushik/AssestsManagementSystem"
+                    href="https://github.com/KannepallyKoushik/AssetsManagement"
                   >
                     GitHub
                   </Button>
