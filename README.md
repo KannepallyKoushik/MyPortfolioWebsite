@@ -3,6 +3,10 @@
 This is a Website developed to showcase my skills.
 I'm looking forward to work as a freelancer and want to show my clients my skills to earn their trust.
 
+## Install Dependencies
+
+After cloning this project .Open the terminal-> navigate to project folder-> Run npm install.
+
 ## Available Scripts
 
 In the project directory, you can run:
