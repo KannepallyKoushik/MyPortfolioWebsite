@@ -14,10 +14,7 @@ class Contact extends React.Component {
               style={{ height: "250px", borderRadius: "5px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Hardworking Software Developer with good coding skills. Superior
-              understanding of a problem and coming up with a rightful solution.
-              Comfortable collaborating with team members and working
-              independently.
+              "Software Developer | Solution Builder | Team Player"
             </p>
           </Cell>
           <Cell col={6}>
