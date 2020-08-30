@@ -16,7 +16,8 @@ class LandingPage extends React.Component {
               <h1>Full Stack Developer</h1>
               <hr />
               <p>
-                HTML | CSS | JavaScript | React | NodeJs | PHP | MYSQL | MongoDb
+                HTML | CSS | JavaScript | React | NodeJs | PHP | Firebase |
+                MYSQL | MongoDb
               </p>
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/kannepally-koushik-kumar-379095146/">

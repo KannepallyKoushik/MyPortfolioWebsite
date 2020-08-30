@@ -179,7 +179,7 @@ class Projects extends React.Component {
       return (
         <div>
           <Grid>
-            <Cell col={12} className="projects-grid-extra">
+            <Cell col={6} className="projects-grid-extra">
               <Card
                 shadow={0}
                 style={{ width: "320px", height: "320px", margin: "15px" }}
@@ -206,10 +206,42 @@ class Projects extends React.Component {
                   >
                     GitHub
                   </Button>
+                  <Button colored href="#">
+                    Live Demo
+                  </Button>
+                </CardActions>
+              </Card>
+            </Cell>
+
+            <Cell col={6} className="projects-grid-extra">
+              <Card
+                shadow={0}
+                style={{ width: "320px", height: "320px", margin: "15px" }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    color: "white",
+                    fontWeight: "bold",
+                    margin: "5px",
+                    background:
+                      "url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center  / cover",
+                  }}
+                >
+                  TO-DO App
+                </CardTitle>
+                <CardText>
+                  This application is built with Real-time Database(Firebase),
+                  and stores our To-Do list
+                </CardText>
+                <CardActions border>
                   <Button
                     colored
-                    href="https://master.d3851zjhc33rp7.amplifyapp.com/"
+                    href="https://github.com/KannepallyKoushik/todo-app"
                   >
+                    GitHub
+                  </Button>
+                  <Button colored href="https://todo-app-da655.web.app/">
                     Live Demo
                   </Button>
                 </CardActions>
