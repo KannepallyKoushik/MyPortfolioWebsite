@@ -179,7 +179,7 @@ class Projects extends React.Component {
       return (
         <div>
           <Grid>
-            <Cell col={6} className="projects-grid-extra">
+            <Cell col={4} className="projects-grid-extra">
               <Card
                 shadow={0}
                 style={{ width: "320px", height: "320px", margin: "15px" }}
@@ -213,7 +213,7 @@ class Projects extends React.Component {
               </Card>
             </Cell>
 
-            <Cell col={6} className="projects-grid-extra">
+            <Cell col={4} className="projects-grid-extra">
               <Card
                 shadow={0}
                 style={{ width: "320px", height: "320px", margin: "15px" }}
@@ -242,6 +242,42 @@ class Projects extends React.Component {
                     GitHub
                   </Button>
                   <Button colored href="https://todo-app-da655.web.app/">
+                    Live Demo
+                  </Button>
+                </CardActions>
+              </Card>
+            </Cell>
+            <Cell col={4} className="projects-grid-extra">
+              <Card
+                shadow={0}
+                style={{ width: "320px", height: "320px", margin: "15px" }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    color: "white",
+                    fontWeight: "bold",
+                    margin: "5px",
+                    background:
+                      "url(https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png) center  / cover",
+                  }}
+                >
+                  Facebook Messenger Clone
+                </CardTitle>
+                <CardText>
+                  This Application resembles Facebook messenger app
+                </CardText>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/KannepallyKoushik/messenger-clone"
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    colored
+                    href="https://github.com/KannepallyKoushik/messenger-clone"
+                  >
                     Live Demo
                   </Button>
                 </CardActions>

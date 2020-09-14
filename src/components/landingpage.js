@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 class LandingPage extends React.Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto", height: "100%" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
