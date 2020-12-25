@@ -41,13 +41,24 @@ class Resume extends React.Component {
             <h2>Education</h2>
             <Education
               startYear={2016}
-              endYear={"Present"}
-              status="Currently Pursuing"
+              endYear={2020}
+              status="Pursued"
               clgName={"Gurunanak Institute of Technology"}
               degree="Btech"
               branch={"Information Technology"}
               courseWork="Data Structures, Design and Analysis of Algorithms, Communication Networks, Cloud Computing, Database Management Systems, Operating Systems"
               place="Hyderabad,India"
+            />
+            <Education
+              startYear={2020}
+              endYear={"Present"}
+              status="Currently Pursuing"
+              clgName={"Amrita University"}
+              degree="Mtech"
+              branch={"Computer Science and Engineering"}
+              courseWork="Distributed Systems, Advance Networking and Security , Programming Paradigms,
+              Foundations of Data Science, Machine Learning , Natural Language Processing, Software Engineering ."
+              place="Coimbattore,India"
             />
             <hr style={{ borderTop: "3px solid #e22974" }} />
             <h2>Work Experience</h2>
